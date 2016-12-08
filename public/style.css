@@ -24,6 +24,15 @@ body {
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  
+}
+
+.hover:hover {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 
 
@@ -31,7 +40,7 @@ body {
   font-family: 'Product Sans', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #FFC636;  #F05F40;
   border-width: 3px;
   max-width: 50px;
 }
@@ -70,7 +79,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #FFC636;  #F05F40;
 }
 .bg-dark {
   background-color: #222222;
@@ -106,7 +115,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color:   #eb3812;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -123,11 +132,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #FFC636; #F05F40;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color:  #FFC636; #F05F40 ;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -200,7 +209,7 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: /*700;*/
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
@@ -372,7 +381,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
+  background-color: #FFC636;  #F05F40;
   border-color: #F05F40;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -385,7 +394,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color: #FFC636; #ee4b28;
   border-color: #ed431f;
 }
 .btn-primary:active,
